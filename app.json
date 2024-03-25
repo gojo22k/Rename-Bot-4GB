@@ -1,7 +1,7 @@
 {
-  "name": "Sigma Renamer Bot",
+  "name": "Era Renamer Bot",
   "description": "Telegram File Renaming Bot With Metadata Feature ",
-  "logo": "https://telegra.ph/file/3b7050b8b5d918a00b490.jpg",
+  "logo": "https://telegra.ph/file/0a5bc7f3038524d540bf6.jpg",
   "keywords": [
     "Renamer Bot",
     "Mongo DB",
@@ -14,7 +14,7 @@
     "Snowball",
     "Snowball-01"
   ],
-  "repository": "https://github.com/Snowball-0/Sigma-Snow-Bot",
+  "repository": "https://github.com/Miko756/Sigma-Rename-Bot",
   "success_url": "",
   "stack": "container",
   "env": {
