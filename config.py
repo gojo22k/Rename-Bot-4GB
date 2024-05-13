@@ -7,27 +7,27 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "")  # ⚠️ Required
-    API_HASH = os.environ.get("API_HASH", "")  # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # ⚠️ Required
+    API_ID = os.environ.get("API_ID", "21257327")  # ⚠️ Required
+    API_HASH = os.environ.get("API_HASH", "1235c1fe45ebc4968d9e23bc93440549")  # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7031962678:AAHYFuJjK3dCdtm4LjJX3zySnzvBhByoai4")  # ⚠️ Required
 
     # premium 4g renaming client
-    STRING_API_ID = os.environ.get("STRING_API_ID", "")
-    STRING_API_HASH = os.environ.get("STRING_API_HASH", "")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_API_ID = os.environ.get("STRING_API_ID", "21257327")
+    STRING_API_HASH = os.environ.get("STRING_API_HASH", "1235c1fe45ebc4968d9e23bc93440549")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQFEXG8APoakBCFZv0cqlKmRGnkfNOtE0C_F1Nr6RtDg5XQp0ROeWFYOgUUcQoHTxpAcJByfdh46-fTP3hrZyQYFlL9cS_mlvm3j_c0rHAhaiwqZHKUUiYZMmY07iPq70MowNNmCSWPtDaMkh6hsN4eXW_4hBDXAUeDM7xYc8DGJB_ApzmZBAZiIQS9MqSm8KSc0_aiB6eW8kMeNqUsCRPGdaCXiROYq_-2Fz6u8sg2aO9RS0JV-ZXUxK4P-LNeQDc0gYlrEDZr9RR3d5-vnsCavGKl1tI0DnT5DYi3fmKcEzmMq9y8qj8gnigJx581ALO-TCYMOFeaMR1TOXh_Li-H0qUfgxQAAAAGsWA54AA")
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Snow_User_Data")
-    DB_URL = os.environ.get("DB_URL", "")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://figega1249:owYb9NfJAuBRFFFV@cluster0.wfrsxjp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "")
     ADMIN = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMIN', '').split()]  # ⚠️ Required
+        admin) else admin for admin in os.environ.get('ADMIN', '5192808332').split()]  # ⚠️ Required
     
     FORCE_SUB = os.environ.get("FORCE_SUB", "") # ⚠️ Required Username without @
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))  # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002115299028"))  # ⚠️ Required
     FLOOD = int(os.environ.get("FLOOD", '10'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
