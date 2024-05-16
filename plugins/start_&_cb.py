@@ -25,7 +25,7 @@ async def start(client, message):
         InlineKeyboardButton('👨‍🏭 Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
     ],
-         [InlineKeyboardButton('🔥 Mᴏᴠɪᴇ Sᴇᴀᴇᴄʜ Gʀᴏᴜᴘ 🔎', callback_data='about')]                         
+         [InlineKeyboardButton('🔥 Mᴏᴠɪᴇ Sᴇᴀᴇᴄʜ Gʀᴏᴜᴘ 🔎', url='https://t.me/Movies_Search_Groupp')]                         
                                   ])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
@@ -73,7 +73,9 @@ async def cb_handler(client, query: CallbackQuery):
             ], [
                 InlineKeyboardButton('💁‍♂️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
-            ]])
+            ],
+                [InlineKeyboardButton('🔥 Mᴏᴠɪᴇ Sᴇᴀᴇᴄʜ Gʀᴏᴜᴘ 🔎', url='https://t.me/Movies_Search_Groupp')]                              
+                                              ])
         )
     elif data == "help":
         await query.message.edit_text(
