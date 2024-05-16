@@ -98,5 +98,6 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ 🔥 Bᴏᴛ Bʏ: @MisterBrutal
 ╰━━━━━━━━━━━━━━━━━━━➣
+
 <b>⦿ Dᴇᴠᴇʟᴏᴘᴇʀ:</b> <a href=https://t.me/MisterBrutal> Bʀᴜᴛᴀʟ 😎</a>
 </b>"""
