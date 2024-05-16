@@ -5,7 +5,7 @@
 ### Sᴀᴍᴩʟᴇ Bᴏᴛ (Pᴀɪɴ Rᴇɴᴀᴍᴇ Bᴏᴛ)
 
 <p align="center">
-🤖 <a href="https://t.me/File_Renamer_4Gb_RoBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=SigmaRename&message=BOT&color=blue-green"></a> 🤖
+🤖 <a href="https://t.me/File_Renamer_4Gb_RoBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=PᴀɪɴRename&message=BOT&color=blue-green"></a> 🤖
 </p>
 
 ## Deploy To Render
