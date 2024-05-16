@@ -1,16 +1,16 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-# 𝗦𝗜𝗚𝗠𝗔 𝗥𝗘𝗡𝗔𝗠𝗘 𝗕𝗢𝗧
+# Pᴀɪɴ X Rᴇɴᴀᴍᴇ Bᴏᴛ
 
-### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official Sɪɢᴍᴀ Rᴇɴᴀᴍᴇ Bᴏᴛ)
+### Sᴀᴍᴩʟᴇ Bᴏᴛ (Pᴀɪɴ Rᴇɴᴀᴍᴇ Bᴏᴛ)
 
 <p align="center">
-🤖 <a href="https://t.me/SigmaRenameBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=SigmaRename&message=BOT&color=blue-green"></a> 🤖
+🤖 <a href="https://t.me/File_Renamer_4Gb_RoBot"><img title="Telegram" src="https://img.shields.io/static/v1?label=SigmaRename&message=BOT&color=blue-green"></a> 🤖
 </p>
 
 ## Deploy To Render
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Snowball-01/Sigma-Rename-Bot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com)
 
 ## Deploy To Railway
 
@@ -18,7 +18,7 @@
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/Snowball-01/Sigma-Rename-Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 ## Configs
 
@@ -46,7 +46,7 @@
 
 - `STRING_API_HASH` - Your Premium Account API HASH
 
-- `STRING_SESSION` - Your Premium Account SESSION STRING Generate by [SnowStringGenBot](https://t.me/SnowStringGenBot) ⚠️ OPTIONAL VARIABLE
+- `STRING_SESSION` - Your Premium Account SESSION STRING 
 
 ## Botfather Commands
 
@@ -64,11 +64,7 @@ see_prefix - To See Your Prefix
 see_suffix - To See Your Suffix
 del_prefix - Delete Your Prefix
 del_suffix - Delete Your Suffix
-restart - To Rrstart The Bot (Admin Only)
+restart - To Restart The Bot (Admin Only)
 status - Check Bot Status (Admin Only)
 broadcast - Send Message To All Users (Admin Only)
 ```
-
-## Created By ❄️
-
-- `Snowball`
