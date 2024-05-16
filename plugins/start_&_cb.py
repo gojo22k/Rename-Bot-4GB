@@ -24,7 +24,9 @@ async def start(client, message):
     ], [
         InlineKeyboardButton('👨‍🏭 Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
-    ]])
+    ],
+         [InlineKeyboardButton('🔥 Mᴏᴠɪᴇ Sᴇᴀᴇᴄʜ Gʀᴏᴜᴘ 🔎', callback_data='about')]                         
+                                  ])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
     else:
