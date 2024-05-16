@@ -1,5 +1,5 @@
 {
-  "name": "Era Renamer Bot",
+  "name": "Pain x Renamer Bot",
   "description": "Telegram File Renaming Bot With Metadata Feature ",
   "logo": "https://telegra.ph/file/0a5bc7f3038524d540bf6.jpg",
   "keywords": [
@@ -9,12 +9,12 @@
     "Bot",
     "Rename",
     "File Rename",
-    "Sigma",
+    "Pain,
     "Rename",
-    "Snowball",
-    "Snowball-01"
+    "Brutal",
+    "MisterBrutal"
   ],
-  "repository": "https://github.com/Miko756/Sigma-Rename-Bot",
+  "repository": "https://github.com/",
   "success_url": "",
   "stack": "container",
   "env": {
