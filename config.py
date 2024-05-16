@@ -28,7 +28,7 @@ class Config(object):
     
     FORCE_SUB = os.environ.get("FORCE_SUB", "MisterBrutal") # ⚠️ Required Username without @
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002115299028"))  # ⚠️ Required
-    FLOOD = int(os.environ.get("FLOOD", '60'))
+    FLOOD = int(os.environ.get("FLOOD", '10'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
 
