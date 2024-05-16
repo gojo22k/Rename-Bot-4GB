@@ -22,7 +22,7 @@ async def not_subscribed(_, client, message):
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def forces_sub(client, message):
     buttons = [[InlineKeyboardButton(text=" 🔥 Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🔥 ", url=f"https://t.me/{Config.FORCE_SUB}") ]]
-    text = "**Sᴏʀʀy Dᴜᴅᴇ Yᴏᴜ Hᴀᴠᴇ Nᴏᴛ Jᴏɪɴᴇᴅ My Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 😐 Pʟᴇᴀꜱᴇ Jᴏɪɴ My Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ **"
+    text = "**Sᴏʀʀy Dᴜᴅᴇ, Yᴏᴜ Hᴀᴠᴇ Nᴏᴛ Jᴏɪɴᴇᴅ My Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 😐 \n Pʟᴇᴀꜱᴇ Jᴏɪɴ My Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Mᴇ **"
     try:
         user = await client.get_chat_member(Config.FORCE_SUB, message.from_user.id)    
         if user.status == enums.ChatMemberStatus.BANNED:                                   
