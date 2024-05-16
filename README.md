@@ -5,7 +5,7 @@
 ### Sᴀᴍᴩʟᴇ Bᴏᴛ (Pᴀɪɴ Rᴇɴᴀᴍᴇ Bᴏᴛ)
 
 
-🤖 <a href="https://t.me/File_Renamer_4Gb_RoBot">"Telegram"
+ <a href="https://t.me/File_Renamer_4Gb_RoBot">"Telegram"</a>
 
 ## Deploy To Render
 
