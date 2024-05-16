@@ -43,7 +43,7 @@ class Bot(Client):
                 self.invitelink = link
             except Exception as e:
                 logging.warning(e)
-                logging.warning("Make Sure Bot admin in force sub channel")
+                logging.warning("Mᴀᴋᴇ Sᴜʀᴇ Bᴏᴛ ɪs Aᴅᴍɪɴ Iɴ Yᴏᴜʀ Fᴏʀᴄᴇ Sᴜʙ Cʜᴀɴɴᴇʟ")
                 self.force_channel = None
         app = web.AppRunner(await web_server())
         await app.setup()
@@ -64,7 +64,7 @@ class Bot(Client):
                 time = curr.strftime('%I:%M:%S %p')
                 await self.send_message(Config.LOG_CHANNEL, f"**__{me.mention} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ !!**\n\n📅 Dᴀᴛᴇ : `{date}`\n⏰ Tɪᴍᴇ : `{time}`\n🌐 Tɪᴍᴇᴢᴏɴᴇ : `Asia/Kolkata`\n\n🉐 Vᴇʀsɪᴏɴ : `v{__version__} (Layer {layer})`</b>")
             except:
-                print("Pʟᴇᴀꜱᴇ Mᴀᴋᴇ Tʜɪꜱ Iꜱ Aᴅᴍɪɴ Iɴ Yᴏᴜʀ Lᴏɢ Cʜᴀɴɴᴇʟ")
+                print("Pʟᴇᴀꜱᴇ Mᴀᴋᴇ Tʜɪꜱ Bᴏᴛ Aᴅᴍɪɴ Iɴ Yᴏᴜʀ Lᴏɢ Cʜᴀɴɴᴇʟ")
 
     async def stop(self, *args):
         await super().stop()
