@@ -18,11 +18,11 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Era_Bot_Support'),
+            '🍁 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/MisterBrutal'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Era_Bot_Support')
+            '🌿 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Brutal_Support_Chat')
     ], [
-        InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('👨‍🏭 Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
     ]])
     if Config.START_PIC:
@@ -39,7 +39,7 @@ async def rename_start(client, message):
 
     if not Config.STRING_SESSION:
         if file.file_size > 2000 * 1024 * 1024:
-            return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Iꜱ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
+            return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
 
     try:
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
@@ -65,11 +65,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/Kdramaland'),
+                    '🍁 Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/MisterBrutal'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/SnowDevs')
+                    '🌿 Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Brutal_Support_Chat')
             ], [
-                InlineKeyboardButton('❄️ Aʙᴏᴜᴛ', callback_data='about'),
+                InlineKeyboardButton('💁‍♂️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
             ]])
         )
@@ -79,7 +79,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("✘ Cʟᴏꜱᴇ", callback_data="close"),
-                InlineKeyboardButton("⟪ Bᴀᴄᴋ", callback_data="start")
+                InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start")
             ]])
         )
     elif data == "about":
@@ -88,7 +88,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("✘ Cʟᴏꜱᴇ", callback_data="close"),
-                InlineKeyboardButton("⟪ Bᴀᴄᴋ", callback_data="start")
+                InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start")
             ]])
         )
 
