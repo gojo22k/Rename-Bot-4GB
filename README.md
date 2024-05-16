@@ -4,9 +4,8 @@
 
 ### Sᴀᴍᴩʟᴇ Bᴏᴛ (Pᴀɪɴ Rᴇɴᴀᴍᴇ Bᴏᴛ)
 
-<p align="center">
+
 🤖 <a href="https://t.me/File_Renamer_4Gb_RoBot"><img title="Telegram" 
->p
 
 ## Deploy To Render
 
