@@ -18,7 +18,7 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Snow_User_Data")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://figega1249:owYb9NfJAuBRFFFV@cluster0.wfrsxjp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://mhsm:mhsm@cluster0.j9figvh.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
