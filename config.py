@@ -14,7 +14,7 @@ class Config(object):
     # premium 4g renaming client
     STRING_API_ID = os.environ.get("STRING_API_ID", "21257327")
     STRING_API_HASH = os.environ.get("STRING_API_HASH", "1235c1fe45ebc4968d9e23bc93440549")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "BQFEXG8APoakBCFZv0cqlKmRGnkfNOtE0C_F1Nr6RtDg5XQp0ROeWFYOgUUcQoHTxpAcJByfdh46-fTP3hrZyQYFlL9cS_mlvm3j_c0rHAhaiwqZHKUUiYZMmY07iPq70MowNNmCSWPtDaMkh6hsN4eXW_4hBDXAUeDM7xYc8DGJB_ApzmZBAZiIQS9MqSm8KSc0_aiB6eW8kMeNqUsCRPGdaCXiROYq_-2Fz6u8sg2aO9RS0JV-ZXUxK4P-LNeQDc0gYlrEDZr9RR3d5-vnsCavGKl1tI0DnT5DYi3fmKcEzmMq9y8qj8gnigJx581ALO-TCYMOFeaMR1TOXh_Li-H0qUfgxQAAAAGsWA54AA")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Snow_User_Data")
