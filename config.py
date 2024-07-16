@@ -7,28 +7,28 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "21257327")  # ⚠️ Required
-    API_HASH = os.environ.get("API_HASH", "1235c1fe45ebc4968d9e23bc93440549")  # ⚠️ Required
+    API_ID = os.environ.get("API_ID", "25198711")  # ⚠️ Required
+    API_HASH = os.environ.get("API_HASH", "2a99a1375e26295626c04b4606f72752")  # ⚠️ Required
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # ⚠️ Required
 
     # premium 4g renaming client
-    STRING_API_ID = os.environ.get("STRING_API_ID", "21257327")
-    STRING_API_HASH = os.environ.get("STRING_API_HASH", "1235c1fe45ebc4968d9e23bc93440549")
+    STRING_API_ID = os.environ.get("STRING_API_ID", "")
+    STRING_API_HASH = os.environ.get("STRING_API_HASH", "")
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "Snow_User_Data")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://mhsm:mhsm@cluster0.j9figvh.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
+    DB_NAME = os.environ.get("DB_NAME", "Aniflix")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/47f1bd32b9ad6628789d1.jpg")
     ADMIN = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMIN', '5192808332').split()]  # ⚠️ Required
+        admin) else admin for admin in os.environ.get('ADMIN', '1740287480').split()]  # ⚠️ Required
     
-    FORCE_SUB = os.environ.get("FORCE_SUB", "MisterBrutal") # ⚠️ Required Username without @
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002115299028"))  # ⚠️ Required
-    FLOOD = int(os.environ.get("FLOOD", '10'))
+    FORCE_SUB = os.environ.get("FORCE_SUB", "aniflixClou") # ⚠️ Required Username without @
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002219568827"))  # ⚠️ Required
+    FLOOD = int(os.environ.get("FLOOD", '1000000000000000'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
 
@@ -49,9 +49,8 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 Mʏ Nᴀᴍᴇ : {}
-├👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/MisterBrutal>Mɪsᴛᴇʀ Bʀᴜᴛᴀʟ</a>
-├👑 Iɴsᴛᴀɢʀᴀᴍ : <a href=https://www.instagram.com/mrbrutal_141>Iɴsᴛᴀɢʀᴀᴍ</a> 
-├☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/MisterBrutal>Bʀᴜᴛᴀʟ</a>
+├👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/AniflixAnkit>ANKIT</a>
+├👑 Iɴsᴛᴀɢʀᴀᴍ : <a href=https://www.instagram.com/gojo22k>Iɴsᴛᴀɢʀᴀᴍ</a> 
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
@@ -78,7 +77,7 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 <b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
 
 
-<b>⦿ Dᴇᴠᴇʟᴏᴘᴇʀ:</b> <a href=https://t.me/MisterBrutal> Mɪsᴛᴇʀ Bʀᴜᴛᴀʟ 😎</a>
+<b>⦿ Dᴇᴠᴇʟᴏᴘᴇʀ:</b> <a href=https://t.me/aniflixClou> Ankit 😎</a>
 """
 
     SEND_METADATA = """
@@ -86,18 +85,24 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @MisterBrutal" -metadata author="@MisterBrutal" -metadata:s:s title="Subtitled By :- @MisterBrutal" -metadata:s:a title="By :- @MisterBrutal" -metadata:s:v title="By:- @MisterBrutal" </code>
+◦ <code> -map 0 -c:s copy -c:a copy -c:v copy -metadata title="Powered By:- @aniflixClou" -metadata author="@aniflixClou" -metadata:s:s title="Subtitled By :- @aniflixClou" -metadata:s:a title="By :- @aniflixClou" -metadata:s:v title="By:- @aniflixClou" </code>
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Brutal_Support_Chat
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @aniflixClou
 """
 
     PROGRESS_BAR = """<b>\n
-╭━━❰Bʀᴜᴛᴀʟ Rᴇɴᴀᴍɪɴɢ Rᴇᴘᴏʀᴛ❱━➣
+╭━━❰Aɴᴋɪᴛ Rᴇɴᴀᴍɪɴɢ Rᴇᴘᴏʀᴛ❱━➣
 ┣⪼ 🗃️ Sɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ 🔥 Bᴏᴛ Bʏ: @MisterBrutal
 ╰━━━━━━━━━━━━━━━━━━━➣
 
-<b>⦿ Dᴇᴠᴇʟᴏᴘᴇʀ:</b> <a href=https://t.me/MisterBrutal> Bʀᴜᴛᴀʟ 😎</a>
+<b>⦿ Channel:</b> <a href=https://t.me/aniflixClou> 
+░█████╗░███╗░░██╗██╗███████╗██╗░░░░░██╗██╗░░██╗
+██╔══██╗████╗░██║██║██╔════╝██║░░░░░██║╚██╗██╔╝
+███████║██╔██╗██║██║█████╗░░██║░░░░░██║░╚███╔╝░
+██╔══██║██║╚████║██║██╔══╝░░██║░░░░░██║░██╔██╗░
+██║░░██║██║░╚███║██║██║░░░░░███████╗██║██╔╝╚██╗
+╚═╝░░╚═╝╚═╝░░╚══╝╚═╝╚═╝░░░░░╚══════╝╚═╝╚═╝░░╚═╝ 😎</a>
 </b>"""
