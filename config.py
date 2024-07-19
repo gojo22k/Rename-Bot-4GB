@@ -7,9 +7,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "25198711")  # ⚠️ Required
-    API_HASH = os.environ.get("API_HASH", "2a99a1375e26295626c04b4606f72752")  # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")  # ⚠️ Required
+    API_ID = os.environ.get("API_ID", "25198711")
+    API_HASH = os.environ.get("API_HASH", "2a99a1375e26295626c04b4606f72752") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # premium 4g renaming client
     STRING_API_ID = os.environ.get("STRING_API_ID", "")
@@ -18,16 +18,16 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Aniflix")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")
 
     # other configs
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/47f1bd32b9ad6628789d1.jpg")
     ADMIN = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMIN', '1740287480').split()]  # ⚠️ Required
+        admin) else admin for admin in os.environ.get('ADMIN', '1740287480').split()] 
     
-    FORCE_SUB = os.environ.get("FORCE_SUB", "aniflixClou") # ⚠️ Required Username without @
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002219568827"))  # ⚠️ Required
+    FORCE_SUB = os.environ.get("FORCE_SUB", "aniflixClou") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002219568827")) 
     FLOOD = int(os.environ.get("FLOOD", '1000000000000000'))
     BANNED_USERS = set(int(x) for x in os.environ.get(
         "BANNED_USERS", "1234567890").split())
@@ -95,7 +95,7 @@ Exᴀᴍᴩʟᴇ:- <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 ┣⪼ 🗃️ Sɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
-┣⪼ 🔥 Bᴏᴛ Bʏ: @MisterBrutal
+┣⪼ 🔥 Bᴏᴛ Bʏ: @AniflixAnkit
 ╰━━━━━━━━━━━━━━━━━━━➣
 
 <b>⦿ Channel:</b> <a href=https://t.me/aniflixClou> 
