@@ -17,8 +17,8 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "Aniflix")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")
+    DB_NAME = os.environ.get("DB_NAME", "aniflixx")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Aniflixx:Lipun123@aniflixx.ftlwgi0.mongodb.net/?retryWrites=true&w=majority&appName=aniflixx")
 
     # other configs
     BOT_UPTIME = time.time()
